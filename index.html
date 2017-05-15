@@ -172,7 +172,7 @@ Gattupalli labs.
 <p id="demo"></p>
 
 <script>
-var countDownDate = new Date("May 14, 2017 12:12:12").getTime();
+var countDownDate = new Date("June 14, 2017 12:00:00").getTime();
 var x = setInterval(function() {
     var now = new Date().getTime();
     var distance = countDownDate - now;
@@ -184,7 +184,7 @@ var x = setInterval(function() {
     + minutes + "m " + seconds + "s "; 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
+        document.getElementById("demo").innerHTML = "Product released";
     }
 }, 1000);
 </script>
@@ -202,8 +202,8 @@ var x = setInterval(function() {
     
     <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
       <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">11+</span><br>
-        Partners
+        <span class="w3-xlarge">2+</span><br>
+       Bank Partners
       </div>
       <div class="w3-quarter w3-section">
         <span class="w3-xlarge">55+</span><br>
@@ -220,7 +220,11 @@ var x = setInterval(function() {
     </div>
 
     <button class="w3-btn w3-light-grey w3-padding-large w3-section w3-hover-grey">
-      <a href="https://goo.gl/forms/CN8GiYNYcDQfC1Zz1">PreoderNow</a>
+      <a href="https://goo.gl/forms/CN8GiYNYcDQfC1Zz1"> <span class="w3-xlarge" >REGISTER</span></a>
+    </button>
+  
+     <button class="w3-btn w3-light-grey w3-padding-large w3-section w3-hover-grey">
+      <a href="#"> <span class="w3-xlarge" >SIGN IN</span></a>
     </button>
     
     
@@ -252,8 +256,17 @@ var x = setInterval(function() {
   <!-- End footer -->
   </footer>
 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-99104392-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 <!-- END PAGE CONTENT -->
-</div>
 
 </body>
 </html>
